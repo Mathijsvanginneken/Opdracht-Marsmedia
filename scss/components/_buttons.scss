@@ -1,0 +1,11 @@
+@use '../custom' as *;
+
+.button1{
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+    color:$white;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 175px;
+    height: 53px;
+    font-size: 12px;
+    font-weight:800;
+}

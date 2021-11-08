@@ -1,0 +1,29 @@
+@use '../custom' as *;
+
+.footer{
+    
+    .imgDiv{
+        width: 156px;
+    }
+    img{
+        width: 46px;
+        height: 46px;
+    }
+
+    h5{
+        color: ($white);
+    }
+
+    a{
+        text-decoration: none;
+        color: #A9A9D5;
+        font-weight:400;
+        font-family: 'Mukta Vaani', sans-serif;
+        font-size: 16px;
+        padding:2rem 0;
+
+        span{
+            color: ($white);
+        }
+    }
+}

@@ -1,0 +1,104 @@
+@use '../custom' as *;
+
+.pools{
+    width: 1185px;
+    height: 551px;
+    margin: auto;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+
+  
+
+    h2{
+        color:($white);
+        font-weight:700;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 36px;
+        margin-bottom: 3rem;
+        padding-left: 2.5rem;
+    }
+
+    h5 {
+        color:($white);
+        font-weight:500;
+        font-family: 'Mukta Vaani', sans-serif;
+        font-size: 24px;
+        margin: 24px;
+        margin-top: 22px;
+    }
+    
+    .col{ 
+    width: 373px;
+    height: 455px;
+    
+    .btn{
+        width: 302px;
+        height: 52px;
+        margin: auto;
+        color:($white);
+        font-weight:800;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 12px;
+    }
+    .notext{
+            color: transparent;
+        }
+
+    .card-footer{
+     
+        font-weight:800;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 12px;
+        border-top: 1px solid rgb(129, 125, 125);
+        padding: 15px 0;
+
+        p{
+            margin: 0;
+            padding-right: 0.75rem;   
+            color:#5B87FF;
+        }
+
+        i{
+            color:#5B87FF;
+        }
+    }
+
+    .card-body{
+        padding: 0;
+        flex: none;
+
+        li{
+        color:#A9A9D5;
+        font-weight:400;
+        font-family: 'Mukta Vaani', sans-serif;
+        font-size: 16px;
+        border-bottom: 1px solid rgb(129, 125, 125);
+        width: auto;
+        margin-top: 12.5px;
+     
+        span{
+            color:($white);
+            font-weight:500;
+            font-family: 'Mukta Vaani', sans-serif;
+            font-size: 16px;
+        }
+    }
+    }
+    
+}
+    
+}
+
+
+
+.cardEven{
+    border: 2px solid #4352FF;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+}
+
+.cardOneven{
+    border: 2px solid #788AFF;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+}

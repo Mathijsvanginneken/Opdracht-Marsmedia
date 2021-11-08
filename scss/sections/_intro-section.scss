@@ -1,0 +1,38 @@
+@use '../custom' as *;
+@use '../components/breakpoints' as *;
+
+body {
+  background-image: url("/images/background.png");
+  background-size: 100% auto; 
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: ($success);
+}
+
+.midtext {
+    margin-top: 54rem;
+    text-align: center;
+     @include media("<=desktop"){
+      margin-top: 30rem;
+    }
+}
+  h1{
+    
+    color:($white);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:700;
+    font-size: 56px;
+    
+  }
+  h4{
+    color: ($info);
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 32px; 
+    font-weight: 400;
+    
+    .secondColor{
+        color: ($warning);
+     }
+  }

@@ -1,0 +1,14 @@
+
+@use 'custom';
+
+// IMPORT COMPONENTS
+
+@use 'components/buttons';
+
+// IMPORT SECTIONS
+
+@use 'sections/navbar';
+@use 'sections/cards';
+@use 'sections/footer';
+@use 'sections/intro-section';
+@use 'sections/wallet-connect';

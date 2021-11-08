@@ -1,0 +1,45 @@
+@use '../custom' as *;
+@use '../components/breakpoints' as *;
+
+.menu{
+    margin-top: 40px;
+    margin: 40px;
+    position:sticky;
+    
+    li{
+        padding: 0 0.7rem;
+
+        a{
+            color: $white !important;
+            text-transform:capitalize;
+            font-weight:800;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 12px;
+        }
+    }
+}
+
+.logo {
+    img{
+        height: 40px;
+        margin: 10px;
+    }
+    h3{
+        color: ($white);
+        margin: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    @include media('<=tablet'){
+       
+    }
+}
+
+button {
+    margin-left: 122.7px;
+    
+@include media('<=tablet'){
+    margin-left:0;
+}
+}
+
